@@ -1,0 +1,11 @@
+version: "3.1"
+services:
+  springboo:
+    environment:
+    - MONGO_DB_HOSTNAME=mongoD
+    - MONGO_DB_USERNAME=vibishanan
+    - MONGO_DB_PASSWORD=vibi@12345
+  mongoD:
+    environment:
+    - MONGO_INITDB_ROOT_USERNAME=vibishanan
+    - MONGO_INITDB_ROOT_PASSWORD=vibi@12345
